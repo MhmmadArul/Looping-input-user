@@ -1,5 +1,5 @@
 Link project :
-
+https://mhmmadarul.github.io/Looping-input-user/
 
 Project ini menggunakan konsep looping dimana setiap angka genap dicetak "Bilangan / Angka genap",
 sedangakan untuk angka ganjil dicetak "Bilangan / Angka ganjil". Lalu setiap 5 angka akan dicetak nama.
