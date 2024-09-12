@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping input user</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <header>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </header>
+
+        <aside class="left">
+            <section class="input">
+                <div class="input-nama">
+                    <input type="text" placeholder="masukan nama" required id="nama" pattern="[A-Za-z]">
+                </div>
+                <div class="input-angka">
+                    <input type="number" disabled value="20" id="angka">
+                </div>
+                <button class="tampil-hasil">Tampil</button>
+                <button class=" reset" onclick="location.reload()">Reset</button>
+            </section>
+        </aside>
+
+        <aside class="right">
+            <ul class="show-list">
+                <li></li>
+            </ul>
+        </aside>
+    </section>
+
+    <script src="js\script.js"></script>
+</body>
+</html>
